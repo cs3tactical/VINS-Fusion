@@ -1,0 +1,8 @@
+prefix=/home/peterpan/camera_models_cv4/build/devel
+
+Name: camera_models
+Description: Description of camera_models
+Version: 0.0.0
+Cflags: -I/home/peterpan/camera_models_cv4/include
+Libs: -L${prefix}/lib -lcamera_models
+Requires: roscpp std_msgs
