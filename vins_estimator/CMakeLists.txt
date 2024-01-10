@@ -19,7 +19,8 @@ find_package(catkin REQUIRED COMPONENTS
     camera_models
     image_transport)
 
-find_package(OpenCV 4.5.4 EXACT REQUIRED PATHS "/home/peterpan/local_install/opencv_install/lib/cmake/opencv4" NO_DEFAULT_PATH)
+#find_package(OpenCV 4.5.4 EXACT REQUIRED PATHS "/home/peterpan/local_install/opencv_install/lib/cmake/opencv4" NO_DEFAULT_PATH)
+find_package(OpenCV 4.5.4 EXACT REQUIRED)
 #find_package(OpenCV REQUIRED)
 
 # message(WARNING "OpenCV_VERSION: ${OpenCV_VERSION}")
